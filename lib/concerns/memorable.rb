@@ -1,14 +1,12 @@
 module Memorable
 
-  @@all = []
-  
   module ClassMethods
     def reset_all
-      @@all.clear
+      all.clear
     end
     
     def count
-      @@all.size
+      all.size
     end
   end
 end
