@@ -9,4 +9,7 @@ module Memorable
       all.size
     end
   end
+  
+  module InstanceMethods
+    def 
 end
